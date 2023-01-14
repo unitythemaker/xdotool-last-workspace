@@ -40,7 +40,6 @@ func startDaemon() {
 	for {
 		currentWorkspace = getCurrentWorkspace()
 		if currentWorkspace != lastWorkspace {
-			fmt.Println(currentWorkspace)
 			writeLastWorkspace(lastWorkspace)
 			lastWorkspace = currentWorkspace
 		}
