@@ -14,7 +14,7 @@ version was `go1.19.4` when I developed this.
 
 ```bash
 git clone https://github.com/unitythemaker/xdotool-last-workspace && \
-cd xdotool-lastl-workspace && \
+cd xdotool-last-workspace && \
 go build main.go
 ```
 
